@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>To-Do App</h1>
+        </header>
+        <main>
+            <section class="input-section">
+                <input type="text" id="taskInput" placeholder="Add a new task">
+                <button id="addTaskButton">Add Task</button>
+            </section>
+            <section class="task-lists">
+                <div class="task-list pending-tasks">
+                    <h2>Pending Tasks</h2>
+                    <ul id="pendingTasksList"></ul>
+                </div>
+                <div class="task-list completed-tasks">
+                    <h2>Completed Tasks</h2>
+                    <ul id="completedTasksList"></ul>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 To-Do App. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
